@@ -1,4 +1,4 @@
-_G.autoFarm = true
+_G.autoFarm = true  --make this false if u want to stop autofarming
 
 while _G.autoFarm == true do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Map.Iceberg.Iceburg:GetChildren()[3].CFrame
@@ -14,3 +14,5 @@ wait(1)
 fireproximityprompt(workspace.SummerEvent:GetChildren()[39].Part.ShaveIce)
 wait(17)
 end
+
+
