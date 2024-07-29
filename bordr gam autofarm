@@ -1,0 +1,16 @@
+_G.autoFarm = true
+
+while _G.autoFarm == true do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Map.Iceberg.Iceburg:GetChildren()[3].CFrame
+wait(0.5)
+fireproximityprompt(workspace.Map.Iceberg.Iceburg:GetChildren()[3].CollectIce)
+wait(10.6)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.SummerEvent.coconut.Part.CFrame
+wait(1.5)
+fireclickdetector(game.Workspace.SummerEvent.coconut.Handle.ClickDetector)
+wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1336.29028, 11.9995279, 1708.70862, 0.899757862, -3.91870536e-08, -0.436389476, -9.25801302e-09, 1, -1.08886731e-07, 0.436389476, 1.02011789e-07, 0.899757862)
+wait(1)
+fireproximityprompt(workspace.SummerEvent:GetChildren()[39].Part.ShaveIce)
+wait(17)
+end
